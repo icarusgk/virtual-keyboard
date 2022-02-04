@@ -1,0 +1,67 @@
+body {
+    background: coral;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+
+kbd {
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.white {
+    background: white;
+    width: 50px;
+    height: 150px;
+    border-radius: 10px;
+    line-height: 250px;
+}
+
+.black {
+    background: black;
+    width: 40px;
+    height: 90px;
+    border-radius: 6px;
+    line-height: 120px;
+    color: white;
+}
+
+.black-keys {
+    position: relative;
+}
+
+#w {
+    position: absolute;
+    right: 312px;
+}
+
+#e {
+    position: absolute;
+    right: 259px;
+}
+
+#t {
+    position: absolute;
+    right: 146px;
+}
+
+#y {
+    position: absolute;
+    right: 90px;
+}
+
+#u {
+    position: absolute;
+    right: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+}
